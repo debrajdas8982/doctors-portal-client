@@ -20,7 +20,7 @@ const AddDoctor = () => {
   formData.append('name', info.name)
   formData.append('email', info.email)
   
-  fetch('http://localhost:5500/addADoctor', {
+  fetch('https://serene-sea-61870.herokuapp.com/addADoctor', {
     method: 'POST',
     body: formData
   })
